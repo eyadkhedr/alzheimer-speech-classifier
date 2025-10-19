@@ -1,2 +1,0 @@
-# alzheimer-speech-classifier
-

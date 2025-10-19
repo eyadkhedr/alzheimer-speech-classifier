@@ -62,5 +62,5 @@ Then open `mobile_app/` in Flutter and update the server URL (use ngrok if neede
 
 ## 👤 Author
 
-**Eyad Ahmed** — Obour STEM School, Egypt
+**Eyad Khedr** — Obour STEM School, Egypt
 Email: [eyada0103@gmail.com](mailto:eyada0103@gmail.com)

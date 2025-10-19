@@ -1,0 +1,32 @@
+# Core
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+
+# Audio Processing
+librosa
+opensmile
+pyAudioAnalysis
+pydub
+
+# NLP & Feature Extraction
+spacy
+lftk
+transformers
+torch
+
+# Web Framework
+Flask
+flask-cors
+
+# Utility
+tqdm
+imbalanced-learn
+lightgbm
+xgboost
+
+# Optional: only if using Google Colab or Kaggle
+ipython

@@ -1,0 +1,36 @@
+<variant
+    name="release"
+    package="com.example.dementia_detector"
+    minSdkVersion="23"
+    targetSdkVersion="35"
+    shrinking="true"
+    mergedManifest="D:\ISEF Application\dementia_detector\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
+    proguardFiles="D:\ISEF Application\dementia_detector\build\app\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.1.0;C:\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    partialResultsDir="D:\ISEF Application\dementia_detector\build\app\intermediates\lint_vital_partial_results\release\out"
+    desugaredMethodsFiles="C:\Users\eyada\.gradle\caches\transforms-3\922f7fa658e8c6bd45dbddcedbc8388c\transformed\D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\release\java;src\main\kotlin;src\release\kotlin"
+        resDirectories="src\main\res;src\release\res"
+        assetsDirectories="src\main\assets;src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="D:\ISEF Application\dementia_detector\build\app\intermediates\javac\release\classes;D:\ISEF Application\dementia_detector\build\app\tmp\kotlin-classes\release;D:\ISEF Application\dementia_detector\build\app\kotlinToolingMetadata;D:\ISEF Application\dementia_detector\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      applicationId="com.example.dementia_detector"
+      generatedSourceFolders="D:\ISEF Application\dementia_detector\build\app\generated\ap_generated_sources\release\out"
+      generatedResourceFolders="D:\ISEF Application\dementia_detector\build\app\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\eyada\.gradle\caches\transforms-3\922f7fa658e8c6bd45dbddcedbc8388c\transformed\D8BackportedDesugaredMethods.txt">
+  </mainArtifact>
+</variant>

@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dementia_detector"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:2:1-63
+11-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:2:18-60
+12    <!--
+13         Required to query activities that can process text, see:
+14         https://developer.android.com/training/package-visibility and
+15         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+16
+17         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+18    -->
+19    <queries>
+19-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:40:5-45:15
+20        <intent>
+20-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:41:9-44:18
+21            <action android:name="android.intent.action.PROCESS_TEXT" />
+21-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:42:13-72
+21-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:42:21-70
+22
+23            <data android:mimeType="text/plain" />
+23-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:43:13-50
+23-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:43:19-48
+24        </intent>
+25        <intent>
+25-->[:file_picker] D:\ISEF Application\dementia_detector\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-12:18
+26            <action android:name="android.intent.action.GET_CONTENT" />
+26-->[:file_picker] D:\ISEF Application\dementia_detector\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-72
+26-->[:file_picker] D:\ISEF Application\dementia_detector\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:21-69
+27
+28            <data android:mimeType="*/*" />
+28-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:43:13-50
+28-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:43:19-48
+29        </intent>
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+32-->[:record_android] D:\ISEF Application\dementia_detector\build\record_android\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-71
+32-->[:record_android] D:\ISEF Application\dementia_detector\build\record_android\intermediates\merged_manifest\release\AndroidManifest.xml:7:22-68
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->[androidx.media3:media3-common:1.4.1] C:\Users\eyada\.gradle\caches\transforms-3\ea763f08590e45b5a76c25471423bc7a\transformed\jetified-media3-common-1.4.1\AndroidManifest.xml:22:5-79
+33-->[androidx.media3:media3-common:1.4.1] C:\Users\eyada\.gradle\caches\transforms-3\ea763f08590e45b5a76c25471423bc7a\transformed\jetified-media3-common-1.4.1\AndroidManifest.xml:22:22-76
+34
+35    <permission
+35-->[androidx.core:core:1.13.1] C:\Users\eyada\.gradle\caches\transforms-3\889ae3adf7a24645889ee22f4dad2cac\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+36        android:name="com.example.dementia_detector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.13.1] C:\Users\eyada\.gradle\caches\transforms-3\889ae3adf7a24645889ee22f4dad2cac\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.13.1] C:\Users\eyada\.gradle\caches\transforms-3\889ae3adf7a24645889ee22f4dad2cac\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.example.dementia_detector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.13.1] C:\Users\eyada\.gradle\caches\transforms-3\889ae3adf7a24645889ee22f4dad2cac\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.13.1] C:\Users\eyada\.gradle\caches\transforms-3\889ae3adf7a24645889ee22f4dad2cac\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+40
+41    <application
+42        android:name="android.app.Application"
+42-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:5:9-42
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.13.1] C:\Users\eyada\.gradle\caches\transforms-3\889ae3adf7a24645889ee22f4dad2cac\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+44        android:extractNativeLibs="false"
+45        android:icon="@mipmap/launcher_icon"
+45-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:6:9-45
+46        android:label="Universal Dementia Detector" >
+46-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:4:9-52
+47        <activity
+47-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:7:9-28:20
+48            android:name="com.example.dementia_detector.MainActivity"
+48-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:8:13-41
+49            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+49-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:13:13-163
+50            android:exported="true"
+50-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:9:13-36
+51            android:hardwareAccelerated="true"
+51-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:14:13-47
+52            android:launchMode="singleTop"
+52-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:10:13-43
+53            android:taskAffinity=""
+53-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:11:13-36
+54            android:theme="@style/LaunchTheme"
+54-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:12:13-47
+55            android:windowSoftInputMode="adjustResize" >
+55-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:15:13-55
+56
+57            <!--
+58                 Specifies an Android theme to apply to this Activity as soon as
+59                 the Android process has started. This theme is visible to the user
+60                 while the Flutter UI initializes. After that, this theme continues
+61                 to determine the Window background behind the Flutter UI.
+62            -->
+63            <meta-data
+63-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:20:13-23:17
+64                android:name="io.flutter.embedding.android.NormalTheme"
+64-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:21:15-70
+65                android:resource="@style/NormalTheme" />
+65-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:22:15-52
+66
+67            <intent-filter>
+67-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:24:13-27:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:25:17-68
+68-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:25:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:26:17-76
+70-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:26:27-74
+71            </intent-filter>
+72        </activity>
+73        <!--
+74             Don't delete the meta-data below.
+75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+76        -->
+77        <meta-data
+77-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:31:9-33:33
+78            android:name="flutterEmbedding"
+78-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:32:13-44
+79            android:value="2" />
+79-->D:\ISEF Application\dementia_detector\android\app\src\main\AndroidManifest.xml:33:13-30
+80
+81        <uses-library
+81-->[androidx.window:window:1.2.0] C:\Users\eyada\.gradle\caches\transforms-3\8859fd2468ade3ef2655d1f63d6737f2\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+82            android:name="androidx.window.extensions"
+82-->[androidx.window:window:1.2.0] C:\Users\eyada\.gradle\caches\transforms-3\8859fd2468ade3ef2655d1f63d6737f2\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+83            android:required="false" />
+83-->[androidx.window:window:1.2.0] C:\Users\eyada\.gradle\caches\transforms-3\8859fd2468ade3ef2655d1f63d6737f2\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+84        <uses-library
+84-->[androidx.window:window:1.2.0] C:\Users\eyada\.gradle\caches\transforms-3\8859fd2468ade3ef2655d1f63d6737f2\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+85            android:name="androidx.window.sidecar"
+85-->[androidx.window:window:1.2.0] C:\Users\eyada\.gradle\caches\transforms-3\8859fd2468ade3ef2655d1f63d6737f2\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+86            android:required="false" />
+86-->[androidx.window:window:1.2.0] C:\Users\eyada\.gradle\caches\transforms-3\8859fd2468ade3ef2655d1f63d6737f2\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+87
+88        <provider
+88-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\eyada\.gradle\caches\transforms-3\40a1bd5ff2ce65cd1fad055cc690d356\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\eyada\.gradle\caches\transforms-3\40a1bd5ff2ce65cd1fad055cc690d356\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+90            android:authorities="com.example.dementia_detector.androidx-startup"
+90-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\eyada\.gradle\caches\transforms-3\40a1bd5ff2ce65cd1fad055cc690d356\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+91            android:exported="false" >
+91-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\eyada\.gradle\caches\transforms-3\40a1bd5ff2ce65cd1fad055cc690d356\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\eyada\.gradle\caches\transforms-3\40a1bd5ff2ce65cd1fad055cc690d356\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+93-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\eyada\.gradle\caches\transforms-3\40a1bd5ff2ce65cd1fad055cc690d356\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+94                android:value="androidx.startup" />
+94-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\eyada\.gradle\caches\transforms-3\40a1bd5ff2ce65cd1fad055cc690d356\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+97                android:value="androidx.startup" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+98        </provider>
+99
+100        <receiver
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+101            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+102            android:directBootAware="false"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+103            android:enabled="true"
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+104            android:exported="true"
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+105            android:permission="android.permission.DUMP" >
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+107                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+110                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+113                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+116                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\eyada\.gradle\caches\transforms-3\408a642162969e960684d9c16b2f116a\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+117            </intent-filter>
+118        </receiver>
+119    </application>
+120
+121</manifest>

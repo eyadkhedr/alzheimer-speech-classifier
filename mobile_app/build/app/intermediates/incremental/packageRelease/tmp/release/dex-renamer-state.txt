@@ -1,0 +1,4 @@
+#Sat Feb 22 22:50:10 EET 2025
+base.0=D\:\\ISEF Application\\dementia_detector\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
